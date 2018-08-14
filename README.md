@@ -1,19 +1,21 @@
 # Instant Lead Alerts
 ### ⏱ 15 min build time
 
+## Why build instant lead alerts for Sales? 
+
 Even though a lot of business transactions happen on the web, from both a business and user perspective, it's still often preferred to switch the channel and talk on the phone. Especially when it comes to high-value transactions in industries such as real estate or mobility, personal contact is essential.
 
 One way to streamline this workflow is by building callback forms onto your website. Through these forms, customers can enter their contact details and receive a call to their phone, thus skipping queues where prospective leads need to stay on hold. 
 
 Callback requests reflect a high level of purchase intent and should be dealt with as soon as possible to increase the chance of converting a lead. Therefore it's paramount to get them pushed to a sales agent as quickly as possible. SMS messaging has proven to be one of the most instant and effective channels for this use case.
 
-In this tutorial, we'll show you how to implement a callback form on a NodeJS-based website with SMS integration powered by MessageBird for a fictitious car dealership named M.B. Cars.
+In this MessageBird Developer Guide, we'll show you how to implement a callback form on a NodeJS-based website with SMS integration powered by MessageBird for our fictitious car dealership, M.B. Cars.
 
 ## Getting Started
 
-You need to have Node and npm installed on your machine to run the sample application, which can be downloaded [here](https://www.npmjs.com/get-npm).
+You need to have Node and npm installed on your machine to run the sample application, which can be downloaded [here](https://www.npmjs.com/get-npm) for free.
 
-The source code is available [in a GitHub repository](https://github.com/messagebirdguides/lead-alerts-guide) from which it can be cloned or downloaded into your development environment.
+The source code is available in the [MessageBird Developer Guides GitHub repository](https://github.com/messagebirdguides/lead-alerts-guide) from which it can be cloned or downloaded into your development environment.
 
 After saving the code, open a console for the download directory and run the following command, which downloads the Express framework, MessageBird SDK and other dependencies defined in the `package.json` file:
 
@@ -131,7 +133,10 @@ Go to http://localhost:8080/ to see the form and request a lead!
 
 ## Nice work!
 
-You've just learned how to send instant lead alert messages with MessageBird!
+You've just built your own instant lead alerts application with MessageBird! 
+
+You can now use the flow, code snippets and UI examples from this tutorial as an inspiration to build your own SMS-based lead alerts application. Don't forget to download the code from the [MessageBird Developer Guides GitHub repository](https://github.com/messagebirdguides/lead-alerts-guide).
 
 ## Next steps
+
 Want to build something similar but not quite sure how to get started? Please feel free to let us know at support@messagebird.com, we'd love to help!
